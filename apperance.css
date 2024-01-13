@@ -1,0 +1,150 @@
+body{
+    background-color: black;
+    margin: 20px;
+    padding:10px;
+    font-family:garamond;
+    color:white;
+  }
+  #container{
+    max-width: 85%;
+    background-color:black;
+    margin: 20px;
+    padding:10px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+  }
+
+  #navigation{
+    margin: 5px;
+    background-color:black;
+    display: flex;   
+      
+  }
+  #icon{
+    text-align: center;
+    padding: 5px;
+    border: 1px;
+    width: 180px;
+    height:60px;
+    display:flex;
+  }
+  #navButtons{
+    display:flex;
+    text-align: right;
+
+  }
+  #navButtons a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    
+  }
+
+  #navButtons a:hover{
+    background-color: #E88383;
+  }
+  #introduction{
+    display:block;
+    background-color:black;
+    margin: 100px;
+  }
+  #skills{
+    background-color: #E88383;
+
+  }
+  #download{
+    background-color: #E88383;
+  }
+  #quote{
+    text-align: center;
+  }
+  h1{
+    color:#E88383;
+  }
+  p{
+    color: #3e3c3c;
+  }
+#aboutme{
+    display:flex;;
+    margin:10px;
+    padding:15px;
+}
+
+#mydescription{
+    text-align: right;
+    color:white;
+    display:block;
+    padding:20px;
+    margin:10px;
+    line-height: 1.6;
+}
+#skills{
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+gap:20px;
+background-color: black;
+}
+#skillCards{    
+    background-color: #E88383;  
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0, 0.1);
+    padding: 5px 10px;
+    display: inline-block;
+    margin-top: 10px;
+   
+
+}
+#skillCards h3 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#skillCards p {
+    color: white;
+    line-height: 1.6;
+}
+h2{
+    text-align: center;
+    color:#E88383;
+}
+h3{
+    text-align: center;
+    color:#E88383
+}
+#photogrid{
+    padding: 10px;
+    border: 2 solid black;
+    border-radius:10px;
+    margin:10px;
+
+}
+.skill-mark {
+    background-color: black;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+#experience{
+    margin:20px;
+    padding: 20px;
+}
+#contact{
+    margin:20px;
+    padding: 20px;
+}
+#download{
+    text-align: center;
+    color:white;
+
+}
+#quote{
+    color:#E88383;
+}
